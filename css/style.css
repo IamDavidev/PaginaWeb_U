@@ -1,0 +1,570 @@
+
+*,html,body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+body{
+  height: auto;  
+  background-color: tomato; 
+}
+header
+{
+    height: 80px;
+    line-height: 33px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.secondary
+{
+    background-color:#0f0f0f;
+    box-shadow: 0px 5px 17 0px rgba(0,128,128,0.4);
+    transition:all 00.5s ease-in;
+}
+ul
+{
+    list-style: none;
+}
+
+ul li
+{
+    display: inline-block;
+}
+header nav
+{
+    float: right;
+    margin-top: 25px;
+}
+.logo img
+{
+    margin-top: 5px;
+}
+header nav ul li a
+{
+    padding-left: 33px;
+    font-weight: bold;
+    color: crimson;
+    transition: all 0.6s ease-in;
+}
+header nav ul li a:hover header nav ul li a:focus 
+{
+    text-decoration: none;
+    color: blueviolet;
+}
+.img-1
+{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url(..//image/slider1.jpg);
+    background-size: 100% 100%;
+}
+.img-2
+{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url(..//image/slider2.jpg);
+    background-size: 100% 100%;
+}
+.img-3
+{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url(..//image/slider3.jpg);
+    background-size: 100% 100%;
+}
+.slider
+{
+ background-color: #0f0f0f;
+}
+.slider h2
+{
+    margin-top: 196px;
+}
+.slider,.slider ul,.slider ul li
+{
+    height: 710px;
+    width: 100%; 
+    color: blueviolet;
+    padding-left: 0rem;
+    font-weight: bold;
+    text-align: center;
+
+}
+.slider span
+{
+ color: aqua;
+}
+.slider i
+{
+    font-size: 35px;
+    margin-right: 11px;
+}
+i.fab.fa-html5
+{
+    color: crimson;
+}
+i.fab.fa-js
+{
+    color: yellow;
+}
+i.fab.fa-css3-alt
+{
+    color: blue;
+}
+.slider a
+{
+    padding: 9px 36px;
+    background-color:rgba(0,128,128,0.7);
+    color: #191919;
+    align-items: center;
+}
+.slider a:hover
+{
+    color: crimson;
+    transition: 0.5s ease-in;
+    background-color:rgba(0,128,128,0.4);
+}
+
+.intro-area
+{
+    position: relative;
+    padding: 85px 0px;
+    text-align: center;
+}
+.col-sm-12 h2
+{
+    color: blueviolet;
+    font-weight: bold;
+    transition: all 0.9 ease;
+}
+.col-sm-12:hover h2
+{
+    transform: scale(1.25);
+    transition: all 0.9 ease;
+}
+.col-sm-4 h3
+{
+    color: teal;
+    font-weight: bold;
+    margin-bottom: 26px;
+}
+.col-sm-4:hover h3
+{
+    color:black;
+
+}
+.sub-headindg
+{
+    position: relative;
+    margin-bottom: 47px;
+}
+.sub-headindg::before
+{
+    content:"";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -3%;
+    width:6%;
+    height: 3px;
+    background-color: blueviolet;
+    z-index: 1;
+     transition: 0.4s ease; 
+}
+.sub-headindg:hover::before
+{
+    width:24%;
+    margin-left: 12px;
+}
+.sub-headindg::after
+{
+     content:"";
+     position:absolute;
+     top:100%;
+     left:  50%;
+     margin-left: -12%;
+     width:24%;
+     height: 1px;
+     background-color: #0f0f0f;
+}
+.sub-headindg p
+{
+    color: #191919;
+    display:inline-block;
+    padding:0px 0px 20px;
+    position: relative;
+    line-height:24px ;
+    letter-spacing: 0.25em;
+}
+i.fab.fa-python
+{
+    color: rgb(42, 42, 152);
+}
+i.fab.fa-angular
+{
+    color:crimson;
+}
+.intro-block
+{
+    position: relative;
+    background-color: #191919;
+    color: whitesmoke;
+    margin:50px 0px;
+    text-align: center;
+    padding: 70px 25px 40px;
+    height:400px;
+}
+.intro-block:hover,.intro-block.active
+{
+    background:blueviolet;
+}
+.intro-block:hover
+{
+    transition: 0.9s ease-in-out;
+}
+.intro-block .intro-icon
+{
+    position: absolute;
+    top: -31px;
+    left: 50%;
+    margin-left: -31px;
+}
+.intro-block .fab
+{  
+    width:63px;
+    height:63px;
+    font-size: 30px;
+    line-height: 2;
+    background:teal;
+    border-radius:50%;
+    box-shadow: 0px 0px 0px 10px blueviolet ;
+}
+.intro-block:hover .fab,.intro-block.active .fab
+{
+    background: rgba(0,128,128,0.9);
+    box-shadow:  0px 0px 0px 10px black;
+    transition:0.9s ease-in-out;
+}
+.feature-area
+{
+    background-image:url(../image/cooper-baumgartner-1N8iqSsn7ls-unsplash.jpg);
+    background-size: 100% 100%;
+    width: 100% ;
+    background-position: center;
+}
+.title h2
+{
+    color: black;
+    font-weight:bold ;
+}
+.title:hover h2
+{
+    transform: scale(1.25);
+    transition: all 0.5s ease-in;
+}
+.title p
+{
+    color: darkred;
+}
+
+
+.single-feature h3
+{
+    color: blue;
+ 
+}
+.single-feature:hover h3
+{
+    transform: scale(1.9);
+    transition: all 0.6s ease;
+}
+.single-feature p
+{
+    color: crimson;
+    border-color:teal;
+}
+.single-feature
+{
+    position: relative;
+    width: 350px;
+    float: right;
+    padding: 30px 0px;
+    text-align:center;
+     border:1px solid black;
+}
+
+
+.feature-block::after
+{
+    content: '';
+    display: table;
+
+}
+.feature-block:after
+{
+    clear: both;
+}
+.feature-icon
+{ 
+    display:inline-block;
+    margin-bottom: 20px;
+}
+.single-feature i.fab, i.far , i.fas
+{
+    border: 3px solid black;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: whitesmoke;
+    width: 69px;
+    height: 69px;
+    transition: all 0.3s ease;
+}
+.feature-icon:hover i.fas
+{    
+    color: crimson;
+    transform: scale(1.3);
+}
+.feature-icon:hover i.far
+{
+    color: crimson;
+    transform: scale(1.3);
+}
+
+
+.site-projects
+{
+    background:rgba(0,0,255,0.3);
+    color: black;
+    text-decoration: none;
+    font-weight: black;
+    transition: all 0.6s ease-in;
+    padding: 15px;
+    border-radius: 16px;
+    transition: .3s ease-in;
+}
+.site-projects:hover
+{
+    background:black;
+    color: crimson;
+
+}
+.proximas-tec h2 
+{
+    text-align:center;
+    color:darkblue;
+    padding: 9px;
+    margin-top: 26px;
+}
+.proximas-tec p
+{
+    text-align:center;
+    color: white;
+    font-weight: bold;
+     margin: 0px;
+    padding:0px;
+}
+.feature-list li
+{
+    background:black;
+    display:inline-block;
+    width: 30%;
+    text-align:center;
+}
+.title  .ptitle
+{
+    color: black;
+}
+.feature-list h3
+{
+    font-weight: bolder;
+    color: darkblue;
+}
+.feature-list li
+{
+    box-shadow: 2px 4px 8px #c1168d;
+}
+.tec-icon i.fab.fa-react
+{
+    color:aqua;
+    font-size: 70px;
+ 
+}
+.react-sc:hover
+{
+    transition: all 0.9s ease-in;
+    background-color: gray;
+     transform: scale(1.2);
+    cursor:zoom-in
+}
+.node-sc:hover
+{
+    transition: all 0.9s ease-in;
+    background-color: gray;
+ transform: scale(1.2);
+ cursor:zoom-in
+}
+.java-sc:hover
+{
+    transition: all 0.9s ease-in;
+    background-color: gray;
+ transform: scale(1.2);
+ cursor:zoom-in
+}
+.tec-icon i.fab.fa-node
+{
+    color:forestgreen;
+    font-size: 70px;
+}
+.tec-icon i.fab.fa-java
+{
+    color:crimson;
+    font-size: 70px;
+}
+.testimonials
+{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(../image/leon-contreras-qpdfU6vehgs-unsplash.jpg);
+    font: size 100% 120% ;
+    background-position: center;
+    background-attachment: fixed;
+}
+.testimonials h1
+{
+    color: whitesmoke;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top:26px;
+    padding-bottom:26px;
+    
+}
+.testimonials .carousel-indicators
+{
+    bottom: -16px;
+}
+.contact-area
+{
+    padding: 100px 0px;
+}
+
+.divider 
+{
+    border-right: 1px solid #191919;
+}
+.contact-area h3
+{
+    text-transform: uppercase;
+    margin-bottom:18px;    
+}
+.contact-area h4
+{
+    color:black;
+    font-weight:700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 0.02em;
+}
+
+.contact-area span
+{
+    display: block;
+    color: teal;
+    font-size: 12px;
+    line-height:normal;
+    letter-spacing: 0.025em;
+}
+    
+.contact-area ul li
+{
+    overflow: hidden;
+    margin-bottom:25px;
+}
+
+.contact-areal ul li:last-child
+{
+    margin-bottom: 0 ;
+
+}
+.contact-area ul li i.fa   
+{
+    float:left;
+    width:25px;
+    color: aqua;
+    font-size:30px ;
+    border-color: blue;
+
+}
+.contact-area ul li .address-phone
+{
+    float: left;
+    width: 180px;
+    padding-left:25px;
+
+}
+
+.contact-block 
+{
+    padding:25px;
+}
+.contact-area .form-control, .contact-area textarea
+{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: rgba(0,128,128,0.2);
+    border: 1 px solid teal;
+    padding:10px 12px;
+    color:tomato;
+    height: 45px;
+    font-weight: 400;
+    border-radius: 3px;
+}
+.contact-area .form-grup
+{
+      margin-bottom:35px;
+
+}
+.contact-area textarea
+{
+    min-height: 115px;
+    max-height: 300px;
+}
+
+.contact-area .default-btn
+{
+    padding:10px ;
+    
+}
+.google
+{
+    background: rgba(128, 128, 128, 0.379);
+}
+footer
+{
+    background: aqua;
+    background-size: cover;
+    padding: 33px 0px;
+    text-align: center;
+}
+.social-icon i
+{
+    padding: 0px 8px ;
+    font-size: 69px;
+    color: crimson;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
